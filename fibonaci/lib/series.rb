@@ -1,5 +1,5 @@
-class Fibonaci
-  def create
+class Series
+  def fibonaci
     first_term, second_term = 0, 1
     while second_term < 1000
       yield(second_term)

@@ -1,4 +1,4 @@
-require_relative "../lib/fibonaci"
+require_relative "../lib/series"
 
-series = Fibonaci.new
-series.create { |term| puts term }
+series = Series.new
+series.fibonaci { |term| puts term }
